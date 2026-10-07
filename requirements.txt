@@ -3,5 +3,5 @@ uvicorn==0.28.0
 python-multipart==0.0.9
 oemer==0.1.4
 pdf2image==1.17.0
-Pillow==10.2.0
+Pillow==10.2.0 --only-binary=:all:
 onnxruntime==1.15.1
