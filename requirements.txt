@@ -4,3 +4,4 @@ python-multipart==0.0.9
 oemer==0.1.4
 pdf2image==1.17.0
 Pillow==10.2.0
+onnxruntime-cpu==1.15.1
