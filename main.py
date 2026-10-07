@@ -8,6 +8,10 @@ from PIL import Image
 
 app = FastAPI(title="Free OMR API Server")
 
+@app.api_route("/", methods=["GET", "HEAD"])
+def read_root():
+    return {"status": "ok", "message": "Sonora OMR Backend is running"}
+
 @app.get("/")
 def home():
     return {"status": "Servidor OMR activo y listo"}
